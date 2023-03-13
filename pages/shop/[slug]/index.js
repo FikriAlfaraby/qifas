@@ -38,7 +38,8 @@ function Detail() {
       title: `${qty} ${product.nama} added to cart!`,
       icon: "success",
       showCancelButton: true,
-      confirmButtonText: "View Cart",
+      confirmButtonText:
+     "View Cart",
       cancelButtonText: "Continue Shopping",
     }).then((result) => {
       if (result.isConfirmed) {
